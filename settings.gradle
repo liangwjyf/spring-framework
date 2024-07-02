@@ -1,5 +1,8 @@
 pluginManagement {
 	repositories {
+		//增加下面两行，配置阿里云仓库
+		maven { url 'https://maven.aliyun.com/repository/public' }
+		maven { url 'https://repo.spring.io/plugins-release' }
 		gradlePluginPortal()
 		maven { url 'https://repo.spring.io/plugins-release' }
 	}
